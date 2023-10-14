@@ -1,4 +1,5 @@
-import RootLayout from "../../components/Layouts/RootLayout";
+import DashBoardLayout from "@/components/Layouts/DashBoardLayout";
+import RootLayout from "@/components/Layouts/RootLayout";
 
 const About = () => {
     return (
@@ -13,7 +14,7 @@ export default About;
 About.getLayout = function getLayout(page) {
     return (
       <RootLayout>
-        {page}
+        <DashBoardLayout>{page}</DashBoardLayout>
       </RootLayout>
     )
   }

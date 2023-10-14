@@ -1,16 +1,16 @@
 import DashBoardLayout from "../../components/Layouts/DashBoardLayout";
 
-const Admin = () => {
+const Dashboard = () => {
     return (
         <div>
-            <h1>This is Admin page</h1>
+            <h1>This is Dashboard</h1>
         </div>
     );
 };
 
-export default Admin;
+export default Dashboard;
 
-Admin.getLayout = function getLayout(page) {
+Dashboard.getLayout = function getLayout(page) {
     return(
         <DashBoardLayout>
             {page}
